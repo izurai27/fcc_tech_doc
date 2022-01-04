@@ -1,0 +1,168 @@
+root {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  background-image: url(https://raw.githubusercontent.com/izurai27/images/4bfa7ad4b132a0790c23c474b7e1ee524abe26d9/4859272.svg);
+  background-size: cover;
+}
+
+nav {
+  width: 100%;
+}
+
+#navbar {
+  height: 30vh;
+  width: 100vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: fixed;
+  background-color: white;
+  background-image: url(https://raw.githubusercontent.com/izurai27/images/4bfa7ad4b132a0790c23c474b7e1ee524abe26d9/17545.svg);
+  background-size: cover;
+  margin-bottom: 20px;
+  border-bottom: 2px solid gray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0 0 10px 0;
+}
+
+#navbar header {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+#navbar ul {
+  height: 65%;
+  overflow: auto;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.63);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  padding: 0;
+  border-radius: 5px;
+}
+
+#navbar ul a {
+  text-decoration: none;
+}
+
+#navbar ul li {
+  padding: 6px;
+  border-bottom: 0.6px solid gray;
+  font-size: 0.9em;
+}
+
+.example {
+  background-color: #a5cdf5;
+  padding: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 100%;
+  font-weight: bold;
+  word-wrap: break-word;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+code {
+  font-family: Consolas,"courier new";
+  background-color: #b6e7f1;
+  padding: 2px;
+  font-size: 90%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.tab {
+  margin-left: 20px;
+}
+
+#main-doc {
+  margin: 0;
+  margin-top: 30vh;
+  padding: 20px;
+  height: 60vh;
+}
+
+#main-doc header {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #131347;
+}
+
+#main-doc h2 {
+  font-size: 1.3rem;
+  color: #131347;
+}
+
+#main-doc h3 {
+  font-size: 1rem;
+  color: #131347;
+}
+
+#main-doc p {
+  font-size: 0.8rem;
+}
+
+#main-doc ul li {
+  font-size: 0.8rem;
+  color: #131347;
+}
+
+#main-doc .main-section {
+  display: none;
+}
+
+#main-doc .current {
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #navbar {
+    height: 100vh;
+    width: 27vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  #navbar ul {
+    height: 85%;
+  }
+  #main-doc {
+    margin-left: 28vw;
+    margin-top: 0;
+    height: 100vh;
+  }
+}
+/*# sourceMappingURL=style.css.map */
